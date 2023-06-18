@@ -1,1 +1,1 @@
-Semister 3
+Semester 3
