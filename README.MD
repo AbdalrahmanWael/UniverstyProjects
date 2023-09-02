@@ -16,5 +16,5 @@ This Application given a list of pickup and delivery location for packages, uses
 
 
 <p align="center">
-<img src="data/examples/DeliverMe/Screen.png" width="700"/>
+<img src="data/examples/DeliverMe/Screen.png" width="900"/>
 </p>
