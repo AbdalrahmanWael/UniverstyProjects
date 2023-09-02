@@ -1,0 +1,11 @@
+
+
+create database ChatT
+
+CREATE TABLE Messages (
+  username VARCHAR(255),
+  date VARCHAR(255),
+  type VARCHAR(3),
+  filename VARCHAR(255),
+  text TEXT
+);
