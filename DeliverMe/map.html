@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a3bb3b807075f1ac0af5c13bc4bcfb11 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a3bb3b807075f1ac0af5c13bc4bcfb11" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a3bb3b807075f1ac0af5c13bc4bcfb11 = L.map(
+                "map_a3bb3b807075f1ac0af5c13bc4bcfb11",
+                {
+                    center: [51.5081201, -0.07622237194643053],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_44efd136f26d1d1d0280fc19c86ffe35 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a3bb3b807075f1ac0af5c13bc4bcfb11);
+        
+    
+            var marker_b02d694b769f96d4f9ee62a6e015f67a = L.marker(
+                [51.5081201, -0.07622237194643053],
+                {}
+            ).addTo(map_a3bb3b807075f1ac0af5c13bc4bcfb11);
+        
+    
+        var popup_d5f274291326194e9c3421cd8fba6dfc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67d8760be35a739bc471ca7e5170173e = $(`<div id="html_67d8760be35a739bc471ca7e5170173e" style="width: 100.0%; height: 100.0%;">Tower of London, Tower Hill, Tower Liberty, Whitechapel, London Borough of Tower Hamlets, London, Greater London, England, EC3N 4AB, United Kingdom</div>`)[0];
+                popup_d5f274291326194e9c3421cd8fba6dfc.setContent(html_67d8760be35a739bc471ca7e5170173e);
+            
+        
+
+        marker_b02d694b769f96d4f9ee62a6e015f67a.bindPopup(popup_d5f274291326194e9c3421cd8fba6dfc)
+        ;
+
+        
+    
+    
+            var poly_line_ecfc411ed310980455a1407a525db7bc = L.polyline(
+                [[51.5081201, -0.07622237194643053], [51.505098950000004, -0.18763318757240555]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_a3bb3b807075f1ac0af5c13bc4bcfb11);
+        
+    
+            var marker_297813fbe398db1b2d88d64040e90e42 = L.marker(
+                [51.505098950000004, -0.18763318757240555],
+                {}
+            ).addTo(map_a3bb3b807075f1ac0af5c13bc4bcfb11);
+        
+    
+        var popup_fe0796caa2d2297add24bc126283397d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6066c53d719ec0e58d0863e1df88579b = $(`<div id="html_6066c53d719ec0e58d0863e1df88579b" style="width: 100.0%; height: 100.0%;">Kensington Palace, Palace Avenue, South Kensington, Royal Borough of Kensington and Chelsea, London, Greater London, England, W8 4PX, United Kingdom</div>`)[0];
+                popup_fe0796caa2d2297add24bc126283397d.setContent(html_6066c53d719ec0e58d0863e1df88579b);
+            
+        
+
+        marker_297813fbe398db1b2d88d64040e90e42.bindPopup(popup_fe0796caa2d2297add24bc126283397d)
+        ;
+
+        
+    
+    
+            var poly_line_e4fc50a0845077a32d40884ced9185a4 = L.polyline(
+                [[51.505098950000004, -0.18763318757240555], [29.9701057, 31.2506865]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_a3bb3b807075f1ac0af5c13bc4bcfb11);
+        
+    
+            var marker_effb38df8f758d6c127a04ff674bd463 = L.marker(
+                [29.9701057, 31.2506865],
+                {}
+            ).addTo(map_a3bb3b807075f1ac0af5c13bc4bcfb11);
+        
+    
+        var popup_e905b9078767aa7fedac8e1cd53aefc2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38866f2954b554acc8e3e5ab437a7291 = $(`<div id="html_38866f2954b554acc8e3e5ab437a7291" style="width: 100.0%; height: 100.0%;">مترو حدائق المعادى, شارع 9, معادي الخبيري, القاهرة, 11745, مصر</div>`)[0];
+                popup_e905b9078767aa7fedac8e1cd53aefc2.setContent(html_38866f2954b554acc8e3e5ab437a7291);
+            
+        
+
+        marker_effb38df8f758d6c127a04ff674bd463.bindPopup(popup_e905b9078767aa7fedac8e1cd53aefc2)
+        ;
+
+        
+    
+    
+            var poly_line_d7a4325600bfef58b83a901e430051ff = L.polyline(
+                [[29.9701057, 31.2506865], [29.9597112, 31.258077057336912]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_a3bb3b807075f1ac0af5c13bc4bcfb11);
+        
+    
+            var marker_63d4d9ba4a507c0e178f0f8861459dee = L.marker(
+                [29.9597112, 31.258077057336912],
+                {}
+            ).addTo(map_a3bb3b807075f1ac0af5c13bc4bcfb11);
+        
+    
+        var popup_2e2f45eb878f99c78df52fb55acc5346 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b1af189909592bb7bde8e8879e5d81b = $(`<div id="html_2b1af189909592bb7bde8e8879e5d81b" style="width: 100.0%; height: 100.0%;">المعادى, Cairo Maadi, القاهرة, 11728, مصر</div>`)[0];
+                popup_2e2f45eb878f99c78df52fb55acc5346.setContent(html_2b1af189909592bb7bde8e8879e5d81b);
+            
+        
+
+        marker_63d4d9ba4a507c0e178f0f8861459dee.bindPopup(popup_2e2f45eb878f99c78df52fb55acc5346)
+        ;
+
+        
+    
+    
+            var poly_line_31ef9eb3e82bf74d4b603577a5f54f52 = L.polyline(
+                [[29.9597112, 31.258077057336912], [30.5119266, 31.3465379]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_a3bb3b807075f1ac0af5c13bc4bcfb11);
+        
+    
+            var marker_e70f9c9eb1f93bdd33231f9bb548609d = L.marker(
+                [30.5119266, 31.3465379],
+                {}
+            ).addTo(map_a3bb3b807075f1ac0af5c13bc4bcfb11);
+        
+    
+        var popup_92e19cdbc8d93c3d40f9eeedfe77de17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edfe0194143087c5c90ab3ea02d8ea55 = $(`<div id="html_edfe0194143087c5c90ab3ea02d8ea55" style="width: 100.0%; height: 100.0%;">منيا القمح, الشرقية, 44692, مصر</div>`)[0];
+                popup_92e19cdbc8d93c3d40f9eeedfe77de17.setContent(html_edfe0194143087c5c90ab3ea02d8ea55);
+            
+        
+
+        marker_e70f9c9eb1f93bdd33231f9bb548609d.bindPopup(popup_92e19cdbc8d93c3d40f9eeedfe77de17)
+        ;
+
+        
+    
+    
+            var poly_line_3cc64d902b59f257e85a2852dfc0836f = L.polyline(
+                [[30.5119266, 31.3465379], [40.71029005, -74.00493831659591]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_a3bb3b807075f1ac0af5c13bc4bcfb11);
+        
+    
+            var marker_ef449f2baa2740a41582c21201e3dfca = L.marker(
+                [40.71029005, -74.00493831659591],
+                {}
+            ).addTo(map_a3bb3b807075f1ac0af5c13bc4bcfb11);
+        
+    
+        var popup_9ee943dfb2a4ff2bf34154f9df08021c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2561556842b21c4e5106443c524ff51a = $(`<div id="html_2561556842b21c4e5106443c524ff51a" style="width: 100.0%; height: 100.0%;">NewYork-Presbyterian Lower Manhattan Hospital, Beekman Street, Manhattan Community Board 1, Manhattan, New York County, City of New York, New York, 10038, United States</div>`)[0];
+                popup_9ee943dfb2a4ff2bf34154f9df08021c.setContent(html_2561556842b21c4e5106443c524ff51a);
+            
+        
+
+        marker_ef449f2baa2740a41582c21201e3dfca.bindPopup(popup_9ee943dfb2a4ff2bf34154f9df08021c)
+        ;
+
+        
+    
+    
+            var poly_line_da93fadad0ba7147263047dde3859dde = L.polyline(
+                [[40.71029005, -74.00493831659591], [51.500841300000005, -0.14298629208606997]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_a3bb3b807075f1ac0af5c13bc4bcfb11);
+        
+    
+            var marker_a4d4aa4ae6cf110e0316a789263c840f = L.marker(
+                [51.500841300000005, -0.14298629208606997],
+                {}
+            ).addTo(map_a3bb3b807075f1ac0af5c13bc4bcfb11);
+        
+    
+        var popup_70938fea0d3f9f10d76907c78115e815 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec1e406cf331cd1710eba6406f5e20e1 = $(`<div id="html_ec1e406cf331cd1710eba6406f5e20e1" style="width: 100.0%; height: 100.0%;">Buckingham Palace, Buckingham Gate, Victoria, London, Greater London, England, SW1A 1AA, United Kingdom</div>`)[0];
+                popup_70938fea0d3f9f10d76907c78115e815.setContent(html_ec1e406cf331cd1710eba6406f5e20e1);
+            
+        
+
+        marker_a4d4aa4ae6cf110e0316a789263c840f.bindPopup(popup_70938fea0d3f9f10d76907c78115e815)
+        ;
+
+        
+    
+    
+            var poly_line_9b4914f8044f415797fc7e7c6a283ba1 = L.polyline(
+                [[51.500841300000005, -0.14298629208606997], [30.088512, 31.215927]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_a3bb3b807075f1ac0af5c13bc4bcfb11);
+        
+    
+            var marker_2c7a5de6e5c6bfe99f0d7535d9f13077 = L.marker(
+                [30.088512, 31.215927],
+                {}
+            ).addTo(map_a3bb3b807075f1ac0af5c13bc4bcfb11);
+        
+    
+        var popup_3822f1e70c435ff73827426e71209610 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78dc68c58120e74db8ff60c3267ec222 = $(`<div id="html_78dc68c58120e74db8ff60c3267ec222" style="width: 100.0%; height: 100.0%;">إمبابة, وراق الحضر, الجيزة, 12664, مصر</div>`)[0];
+                popup_3822f1e70c435ff73827426e71209610.setContent(html_78dc68c58120e74db8ff60c3267ec222);
+            
+        
+
+        marker_2c7a5de6e5c6bfe99f0d7535d9f13077.bindPopup(popup_3822f1e70c435ff73827426e71209610)
+        ;
+
+        
+    
+</script>
+</html>
